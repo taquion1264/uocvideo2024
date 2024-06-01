@@ -1,12 +1,39 @@
-
-<video width="640" height="240" controls autoplay loop poster="fotograma.png">
-   <source src="video.mp4" type="video/mp4"/>
-   <source src="video.webm" type="video/webm"/>
-	  
-   <object width="640" height="240" data="video.flv">
-   <param name="movie" value="video.flv">
-   <embed src="video.flv" width="640" height="240">
-   </object>
-
-   <p>Tu navegador no soporta HTML5</p>
-</video>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 1 PRA M1306-PPD-UOC-2024</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 24px; /* Tamaño más grande para el título */
+            font-weight: bold; /* Negrita */
+            font-style: italic; /* Cursiva */
+            text-transform: uppercase; /* Texto en mayúsculas */
+        }
+        footer p {
+            font-size: 16px; /* Tamaño más pequeño para el pie de página */
+            font-weight: bold; /* Negrita */
+            font-style: italic; /* Cursiva */
+            text-transform: capitalize; /* Primeras letras en mayúsculas */
+        }
+    </style>
+</head>
+<body>
+    <h1>Ejercicio 1 PRA M1306-PPD-UOC-2024</h1>
+    <video width="640" height="240" controls autoplay loop poster="motor.jpg">
+        <source src="motor.mp4" type="video/mp4"/>
+        <source src="motor.webm" type="video/webm"/>
+        <object width="640" height="240" data="motor.flv">
+            <param name="movie" value="motor.flv"/>
+            <embed src="motor.flv" width="640" height="240"/>
+        </object>
+        <p>Tu navegador no soporta HTML5.</p>
+    </video>
+    <footer>
+        <p>Freddy Garcia Guerra</p>
+    </footer>
+</body>
+</html>
